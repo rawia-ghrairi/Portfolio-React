@@ -26,7 +26,6 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Rawia Ghrairi</span>
           <span>
@@ -51,7 +50,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={boy} alt="" className="boy-img" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
